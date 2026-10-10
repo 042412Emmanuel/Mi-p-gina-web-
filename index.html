@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <h1>TECNO PLAY</h1>
+</head>
+<body>
+<main>
+    <p id="fecha"></p>
+    <p>Bienvenidos a TECNO PLAY</p>
+    <img src="imagen pagina web.jpg" height="300" width="500"/>
+    <select onchange="elegircomputador(this.value)">
+        <option value="">Seleccione el tipo de computador</option>
+        <option value="gamer">Computador Gamer</option>
+        <option value="diario">Computador para Uso Diario</option>
+    </select>
+    <p id="opcionSeleccionada"></p>
+    <p onmouseout="cambiarColor()" id="texto2">Tecnologia para estudiar, trabajo y entretenimiento</p>
+    <p>En TECNO PLAY ofrecemos computadores para diferentes necesidades
+    y presupuestos</p>
+    <h3>Nuestros productos</h3>
+    <p id="texto" onmouseover="cambiarTexto()">ven aqui</p>
+    <p> Computadores gamers y Computadores para uso diario</p>
+    <input type="text" onkeydown="mostrartecla(event) ">
+    <p id="tecla"></p>
+</main>
+<footer>
+    <button id="contacto" onclick="mostrarInformacion()">mostrar información de contacto</button>
+    <p id="informacion" style="display: none;">contacto: tecnoplay@gmail.com</p>
+    <button id="contacto" onclick="ocultarInformacion()">ocultar información de contacto</button>
+    <p>© 2026 tecno play - Todos los derechos reservados</p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

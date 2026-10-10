@@ -1,0 +1,40 @@
+h1 {
+    font-size: 35px;
+    line-height: 3.5;
+    color: rgba(129, 121, 5, 0.493);
+    text-align: center;
+
+}
+main {
+    text-align: center;
+    font-size: 25px;
+    line-height: 2.5;
+}
+footer {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(8, 8, 8);
+}
+button {
+    background-color: rgba(129, 107, 7, 0.493);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+informacion {
+    display: none;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    font-size: 30px;
+    line-height: 2.5;
+    color: rgba(129, 107, 7, 0.493);
+}
